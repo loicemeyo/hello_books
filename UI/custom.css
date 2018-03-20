@@ -2,7 +2,12 @@
     color:blue;
     font-weight: bold;
 }
-
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid maroon;
+    padding: 10px;
+}
 .paragraph{
     color:red;
     font-size:24px;
@@ -10,3 +15,12 @@
 
 
 }
+
+.logo{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    padding: 3px;
+    margin-left: 120px;
+ }
+   
