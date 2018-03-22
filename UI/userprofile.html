@@ -45,29 +45,21 @@
            #butn{
                background-color: grey;
            }
-                          table {
-                               width:300;
-                               margin-left: 100px
-                           }
-                           table, th, td {
-                               border: 1px solid black;
-                               border-collapse: collapse;
-                           }
-                           th, td {
-                               padding: 15px;
-                               text-align: left;
-                           }
-                           table#t01 tr:nth-child(even) {
-                               background-color: #eee;
-                           }
-                           table#t01 tr:nth-child(odd) {
-                              background-color: #fff;
-                           }
-                           table#t01 th {
-                               background-color: black;
-                               color: white;
-                           }
-                  
+           #t01{
+                 background-color: black;
+                 color: white;
+                }  
+                textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}                
 </style>
 </head>
 <body>
@@ -88,22 +80,43 @@
         <div class="w3 container">
            <h1 style="color:linen; text-align:center;">User profile</h1>
                         
-      <div>
-          <table style="border:none;">
-              <tr>
-                <button>Add a new book</button> <br><br>
+      <div></div>>
+          <table id="t01">
+              <tr class="tr">
+                  <img src="images/user.png" height="120" width="120"></tr><br><br>
+                  <tr style="background-color: moccasin;
+                  font-size: 16px;"></tr>
 
-                 <form class="example" action="#">
-                  <input style="float:left; width:400;" type="text" placeholder="Search title to modify..." name="search">
-                 </form>
-              </tr>
-          </table>
+                  <tr><p style="color:blanchedalmond">Interests:</p> </tr>
+                  <tc>
+                    <input type="text" name="userinterests" placeholder="Sports"><br>
+                   
+                  </tc> <br>
+                 
+                  <tr><p style="color:blanchedalmond">Total books borrowed this month:</p></tr>
+                  <tc>
+                  <input type="text" name="booksmonth" placeholder="2"><br>
+                </tc>
+                  <br>
+                  <tr><p style="color:blanchedalmond">Total books borrowed this year</p></tr>
+                  <tc>
+                        <input type="text" name="booksyear" placeholder="4"><br>
+                      </tc>
+                  <tc>
+                  
+                  <tc>
+
+                  </tc><br><br>
+             
+              
+                   </table>
           <br>
 
-           
-           
-      </div> 
+        </div>
       </div>
+      <div class="footer">
+            <p>(c) 2018. HelloBooks</p>
+          </div>
     
 </body>
 </html>

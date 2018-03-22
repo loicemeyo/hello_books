@@ -79,3 +79,17 @@
         margin-left: 100px;
         height:500px;width:700px;overflow:scroll;
           }
+    .tr{
+        background-color: moccasin;
+        font-size: 16px;
+    }
+    .footer {
+        position: fixed;
+        font-family: cursive;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+     }
